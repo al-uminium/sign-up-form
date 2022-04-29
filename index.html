@@ -5,15 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Raleway&family=Ubuntu&display=swap" rel="stylesheet"> 
     <title>watermelon</title>
 </head>
 <body>
     <div class="container">
-        <div class="watermelon-wallpaper"></div>
-        <div class="sign-up-container">
+        <div class="watermelon-wallpaper">
+            <div class="logo-cnt">
+                <div class="logo-slogan">WAMON</div>
+                <img src="/sign-up-form/images/Watermelon_Outline_Teal.svg" alt="watermelon logo">
+            </div>
+        </div>
+        <div class="form-container">
+            <section>
+                This is just CSS practice! I hope to be an actual sign-up form one day
+                which you'll need in your life to help you realize your deepest dreams.
+                <br>Sign up <em>now</em> to get started!
+                <br><br>
+                You <em>know</em> you want to.
+            </section>
             <form action="" method="post">
-                
+                <h3 class="sign-up-header">Let's do this!</h3>
+                <div class="sign-up-container">
+                    <div class="name-container form-input">
+                        <div class="cnt">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="cnt">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="contact-container form-input">
+                        <div class="cnt">
+                            <label for="e-mail">E-mail</label>
+                            <input type="email" name="e-mail" id="e-mail">
+                        </div>
+                        <div class="cnt">
+                            <label for="phone-no">Phone Number</label>
+                            <input type="text" name="phone-no" id="phone-no">
+                        </div>
+                    </div>
+                    <div class="password-container form-input">
+                        <div class="cnt">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="cnt">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                    </div>
+                </div>
             </form>
+            <div class="user-action-container">
+                <button type="button" class="create-account">Create account</button>
+                <div class="log-in-container">Already have an account? <span class="log-in">Log in</span></div>
+            </div>
         </div>
     </div>
 </body>
